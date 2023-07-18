@@ -16,9 +16,9 @@ import { View, Map } from "ol";
 import GeoJson from "ol/format/GeoJSON";
 import Link from "ol/interaction/Link";
 // import OSM from "ol/source/OSM";
-import { Raster, XYZ } from "ol/source";
-import ImageLayer from "ol/layer/Image";
-import TileLayer from "ol/layer/WebGLTile";
+// import { Raster, XYZ } from "ol/source";
+// import ImageLayer from "ol/layer/Image";
+// import TileLayer from "ol/layer/WebGLTile";
 import Feature from "ol/Feature";
 import Geometry from "ol/geom/Geometry";
 import { fromLonLat } from "ol/proj";
@@ -278,41 +278,42 @@ type Layer = {
   declutter: boolean;
   zIndex?: number;
 };
-// The method used to extract elevations from the DEM.
-// In this case the format used is
-// red + green * 2 + blue * 3
-//
-// Other frequently used methods include the Mapbox format
-// (red * 256 * 256 + green * 256 + blue) * 0.1 - 10000
-// and the Terrarium format
-// (red * 256 + green + blue / 256) - 32768
-function elevation(xOffset: number, yOffset: number) {
-  const red = ["band", 1, xOffset, yOffset];
-  const green = ["band", 2, xOffset, yOffset];
-  const blue = ["band", 3, xOffset, yOffset];
-  return ["-", ["+", ["*", 256 * 256, red], ["*", 256, green], blue], 32768];
-}
 
-// Generates a shaded relief image given elevation data.  Uses a 3x3
-// neighborhood for determining slope and aspect.
-const dp = ["*", 2, ["resolution"]];
-const z0x = ["*", ["var", "vert"], elevation(-1, 0)];
-const z1x = ["*", ["var", "vert"], elevation(1, 0)];
-const dzdx = ["/", ["-", z1x, z0x], dp];
-const z0y = ["*", ["var", "vert"], elevation(0, -1)];
-const z1y = ["*", ["var", "vert"], elevation(0, 1)];
-const dzdy = ["/", ["-", z1y, z0y], dp];
-const slope = ["atan", ["^", ["+", ["^", dzdx, 2], ["^", dzdy, 2]], 0.5]];
-const aspect = ["clamp", ["atan", ["-", 0, dzdx], dzdy], -Math.PI, Math.PI];
-const sunEl = ["*", Math.PI / 180, ["var", "sunEl"]];
-const sunAz = ["*", Math.PI / 180, ["var", "sunAz"]];
+// // The method used to extract elevations from the DEM.
+// // In this case the format used is
+// // red + green * 2 + blue * 3
+// //
+// // Other frequently used methods include the Mapbox format
+// // (red * 256 * 256 + green * 256 + blue) * 0.1 - 10000
+// // and the Terrarium format
+// // (red * 256 + green + blue / 256) - 32768
+// function elevation(xOffset: number, yOffset: number) {
+//   const red = ["band", 1, xOffset, yOffset];
+//   const green = ["band", 2, xOffset, yOffset];
+//   const blue = ["band", 3, xOffset, yOffset];
+//   return ["-", ["+", ["*", 256 * 256, red], ["*", 256, green], blue], 32768];
+// }
 
-const cosIncidence = [
-  "+",
-  ["*", ["sin", sunEl], ["cos", slope]],
-  ["*", ["*", ["cos", sunEl], ["sin", slope]], ["cos", ["-", sunAz, aspect]]],
-];
-const scaled = ["*", 255, cosIncidence];
+// // Generates a shaded relief image given elevation data.  Uses a 3x3
+// // neighborhood for determining slope and aspect.
+// const dp = ["*", 2, ["resolution"]];
+// const z0x = ["*", ["var", "vert"], elevation(-1, 0)];
+// const z1x = ["*", ["var", "vert"], elevation(1, 0)];
+// const dzdx = ["/", ["-", z1x, z0x], dp];
+// const z0y = ["*", ["var", "vert"], elevation(0, -1)];
+// const z1y = ["*", ["var", "vert"], elevation(0, 1)];
+// const dzdy = ["/", ["-", z1y, z0y], dp];
+// const slope = ["atan", ["^", ["+", ["^", dzdx, 2], ["^", dzdy, 2]], 0.5]];
+// const aspect = ["clamp", ["atan", ["-", 0, dzdx], dzdy], -Math.PI, Math.PI];
+// const sunEl = ["*", Math.PI / 180, ["var", "sunEl"]];
+// const sunAz = ["*", Math.PI / 180, ["var", "sunAz"]];
+
+// const cosIncidence = [
+//   "+",
+//   ["*", ["sin", sunEl], ["cos", slope]],
+//   ["*", ["*", ["cos", sunEl], ["sin", slope]], ["cos", ["-", sunAz, aspect]]],
+// ];
+// const scaled = ["*", 255, cosIncidence];
 </script>
 
 <style scoped>
