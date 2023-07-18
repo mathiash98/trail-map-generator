@@ -21,7 +21,6 @@ import Link from "ol/interaction/Link";
 // import ImageLayer from "ol/layer/Image";
 // import Feature from "ol/Feature";
 // import Geometry from "ol/geom/Geometry";
-import { fromLonLat } from "ol/proj";
 import { Style, Circle, Text, Fill, Stroke } from "ol/style";
 import type { FeatureLike } from "ol/Feature";
 import VectorLayer from "ol/layer/Vector";
@@ -215,7 +214,7 @@ onMounted(() => {
   const map = new Map({
     target: "map-preview",
     view: new View({
-      center: fromLonLat([7.1907702, 60.3464172]),
+      center: [800647.3315749887, 60.38762736055437],
       zoom: 10,
       maxZoom: 20,
       projection: "EPSG:4326",
