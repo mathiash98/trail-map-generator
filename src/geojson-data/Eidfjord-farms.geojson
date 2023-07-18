@@ -1,0 +1,802 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-07-16T21:23:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276625100",
+        "name": "Kjeåsen",
+        "place": "farm",
+        "ssr:stedsnr": "6251",
+        "tourism": "attraction",
+        "url": "https://youtu.be/Ed2wDzwUN54",
+        "wikidata": "Q1956022",
+        "wikipedia": "no:Kjeåsen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1303826,
+          60.5043406
+        ]
+      },
+      "id": "node/276625100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838934890",
+        "name": "Måbø",
+        "place": "farm",
+        "source": "survey",
+        "ssr:stedsnr": "430697",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2006927,
+          60.4173636
+        ]
+      },
+      "id": "node/1838934890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4265094536",
+        "name": "Ytre Bu",
+        "place": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.83634,
+          60.466765
+        ]
+      },
+      "id": "node/4265094536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801817",
+        "name": "Tveit",
+        "place": "farm",
+        "ssr:stedsnr": "5691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1218763,
+          60.4116222
+        ]
+      },
+      "id": "node/9374801817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797199",
+        "name": "Katlo",
+        "place": "farm",
+        "ssr:stedsnr": "346962"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1272778,
+          60.4142694
+        ]
+      },
+      "id": "node/9374797199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797209",
+        "name": "Nordberg",
+        "place": "farm",
+        "ssr:stedsnr": "164961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1258445,
+          60.4135944
+        ]
+      },
+      "id": "node/9374797209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9109922586",
+        "name": "Viveli",
+        "place": "farm",
+        "ssr:stedsnr": "126530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1458444,
+          60.3451139
+        ]
+      },
+      "id": "node/9109922586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801869",
+        "name": "Hjølmo",
+        "place": "farm",
+        "ssr:stedsnr": "127605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1467144,
+          60.3841443
+        ]
+      },
+      "id": "node/9374801869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801853",
+        "name": "Fet",
+        "place": "farm",
+        "ssr:stedsnr": "430708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2797667,
+          60.4079861
+        ]
+      },
+      "id": "node/9374801853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797166",
+        "name": "Dokki",
+        "place": "farm",
+        "ssr:stedsnr": "855313"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8583556,
+          60.4711639
+        ]
+      },
+      "id": "node/9374797166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801879",
+        "name": "Indre Bu",
+        "place": "farm",
+        "ssr:stedsnr": "66320"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.85975,
+          60.4674556
+        ]
+      },
+      "id": "node/9374801879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801862",
+        "name": "Teigen",
+        "place": "farm",
+        "ssr:stedsnr": "369308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8950222,
+          60.4676972
+        ]
+      },
+      "id": "node/9374801862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801868",
+        "alt_name": "Brimnes ytre",
+        "name": "Ytre Brimnes",
+        "place": "farm",
+        "ssr:stedsnr": "187311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.898175,
+          60.4690139
+        ]
+      },
+      "id": "node/9374801868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801882",
+        "alt_name": "Brimnes indre",
+        "name": "Indre Brimnes",
+        "place": "farm",
+        "ssr:stedsnr": "5306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9094278,
+          60.4709944
+        ]
+      },
+      "id": "node/9374801882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797176",
+        "name": "Sand",
+        "place": "farm",
+        "ssr:stedsnr": "711949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9955833,
+          60.4798944
+        ]
+      },
+      "id": "node/9374797176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801864",
+        "alt_name": "Skar;Skår",
+        "name": "Skor",
+        "place": "farm",
+        "ssr:stedsnr": "249220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0238972,
+          60.5042861
+        ]
+      },
+      "id": "node/9374801864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801875",
+        "name": "Tråa",
+        "place": "farm",
+        "ssr:stedsnr": "88087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0744306,
+          60.4591528
+        ]
+      },
+      "id": "node/9374801875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797184",
+        "name": "Lægreid",
+        "place": "farm",
+        "ssr:stedsnr": "612640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0705267,
+          60.4607874
+        ]
+      },
+      "id": "node/9374797184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801863",
+        "name": "Vik",
+        "place": "farm",
+        "ssr:stedsnr": "308600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0649413,
+          60.4639266
+        ]
+      },
+      "id": "node/9374801863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797192",
+        "alt_name": "Garatun",
+        "name": "Gardatun",
+        "place": "farm",
+        "ssr:stedsnr": "402775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1261556,
+          60.4170778
+        ]
+      },
+      "id": "node/9374797192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797193",
+        "name": "Bolingo",
+        "place": "farm",
+        "ssr:stedsnr": "402774"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1303111,
+          60.4192278
+        ]
+      },
+      "id": "node/9374797193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801834",
+        "name": "Røyso",
+        "place": "farm",
+        "ssr:stedsnr": "733683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1272548,
+          60.416734
+        ]
+      },
+      "id": "node/9374801834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801876",
+        "name": "Myklatun",
+        "place": "farm",
+        "ssr:stedsnr": "66700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1251945,
+          60.4179472
+        ]
+      },
+      "id": "node/9374801876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797202",
+        "name": "Myklatun",
+        "place": "farm",
+        "ssr:stedsnr": "281758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1211056,
+          60.4233194
+        ]
+      },
+      "id": "node/9374797202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801822",
+        "name": "Neset",
+        "place": "farm",
+        "ssr:stedsnr": "938321"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1184111,
+          60.4210879
+        ]
+      },
+      "id": "node/9374801822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801844",
+        "name": "Litlatun",
+        "place": "farm",
+        "ssr:stedsnr": "584739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1232778,
+          60.4230139
+        ]
+      },
+      "id": "node/9374801844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797210",
+        "name": "Øvre Kvammen",
+        "place": "farm",
+        "ssr:stedsnr": "148335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.098125,
+          60.4415889
+        ]
+      },
+      "id": "node/9374797210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801820",
+        "name": "Nedre Kvammen",
+        "place": "farm",
+        "ssr:stedsnr": "988062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0989905,
+          60.4451611
+        ]
+      },
+      "id": "node/9374801820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797204",
+        "name": "Insta-Horni",
+        "place": "farm",
+        "ssr:stedsnr": "220362"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0896298,
+          60.4610717
+        ]
+      },
+      "id": "node/9374797204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801881",
+        "alt_name": "Hereid",
+        "name": "Hæreid",
+        "place": "farm",
+        "ssr:stedsnr": "5619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0898528,
+          60.4664556
+        ]
+      },
+      "id": "node/9374801881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801823",
+        "name": "Djupedal",
+        "place": "farm",
+        "ssr:stedsnr": "916764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1001139,
+          60.4625639
+        ]
+      },
+      "id": "node/9374801823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797183",
+        "name": "Hotle",
+        "place": "farm",
+        "ssr:stedsnr": "612647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0585917,
+          60.4903611
+        ]
+      },
+      "id": "node/9374797183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797188",
+        "name": "Blurnes",
+        "place": "farm",
+        "ssr:stedsnr": "512135"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.080801,
+          60.4771469
+        ]
+      },
+      "id": "node/9374797188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797161",
+        "name": "Leirvikane",
+        "place": "farm",
+        "ssr:stedsnr": "877193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0845333,
+          60.4783917
+        ]
+      },
+      "id": "node/9374797161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797158",
+        "name": "Moen",
+        "place": "farm",
+        "ssr:stedsnr": "1077072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1325244,
+          60.4206548
+        ]
+      },
+      "id": "node/9374797158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801856",
+        "name": "Vardberg",
+        "place": "farm",
+        "ssr:stedsnr": "490716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1312091,
+          60.4177637
+        ]
+      },
+      "id": "node/9374801856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797182",
+        "name": "Lund",
+        "place": "farm",
+        "ssr:stedsnr": "612740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1352667,
+          60.425625
+        ]
+      },
+      "id": "node/9374797182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801852",
+        "name": "Sæbø",
+        "place": "farm",
+        "ssr:stedsnr": "430721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1307027,
+          60.4227672
+        ]
+      },
+      "id": "node/9374801852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797203",
+        "name": "Finnasteinfloten",
+        "place": "farm",
+        "ssr:stedsnr": "281742"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1496632,
+          60.4162577
+        ]
+      },
+      "id": "node/9374797203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797206",
+        "name": "Tveito",
+        "place": "farm",
+        "ssr:stedsnr": "187670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1849353,
+          60.4208641
+        ]
+      },
+      "id": "node/9374797206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797160",
+        "alt_name": "Sæd",
+        "name": "Sæ",
+        "place": "farm",
+        "ssr:stedsnr": "888629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1597373,
+          60.5002875
+        ]
+      },
+      "id": "node/9374797160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801821",
+        "name": "Selgjerd",
+        "place": "farm",
+        "ssr:stedsnr": "949607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1750445,
+          60.5001139
+        ]
+      },
+      "id": "node/9374801821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801858",
+        "name": "Øyjorda",
+        "place": "farm",
+        "ssr:stedsnr": "370288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1875903,
+          60.5006355
+        ]
+      },
+      "id": "node/9374801858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801849",
+        "name": "Midhus",
+        "place": "farm",
+        "ssr:stedsnr": "674235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.193406,
+          60.5038782
+        ]
+      },
+      "id": "node/9374801849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797197",
+        "fixme": "consider place=hamlet",
+        "name": "Høl",
+        "place": "farm",
+        "ssr:stedsnr": "369658"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2568,
+          60.4201083
+        ]
+      },
+      "id": "node/9374797197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801877",
+        "name": "Solbakken",
+        "place": "farm",
+        "ssr:stedsnr": "66694"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2689914,
+          60.4217557
+        ]
+      },
+      "id": "node/9374801877"
+    }
+  ]
+}

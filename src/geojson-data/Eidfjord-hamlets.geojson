@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-07-16T21:24:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/251727101",
+        "name": "Brimnes",
+        "place": "hamlet",
+        "ssr:stedsnr": "813316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9090804,
+          60.4710494
+        ]
+      },
+      "id": "node/251727101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/417976173",
+        "name": "Øvre Eidfjord",
+        "place": "hamlet",
+        "ssr:stedsnr": "612739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.130025,
+          60.4233528
+        ]
+      },
+      "id": "node/417976173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517567",
+        "alt_name": "Garden",
+        "name": "Garen",
+        "place": "hamlet",
+        "ssr:stedsnr": "5683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2854417,
+          60.4116333
+        ]
+      },
+      "id": "node/2805517567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517568",
+        "name": "Maurset",
+        "place": "hamlet",
+        "ssr:stedsnr": "491689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3368465,
+          60.4121378
+        ]
+      },
+      "id": "node/2805517568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9104026856",
+        "name": "Krokane",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0858176,
+          60.3771557
+        ]
+      },
+      "id": "node/9104026856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9104027812",
+        "name": "Lægreidsvedal",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1015365,
+          60.3856421
+        ]
+      },
+      "id": "node/9104027812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105799537",
+        "name": "Hadlaskard",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.166897,
+          60.2509037
+        ]
+      },
+      "id": "node/9105799537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374801845",
+        "name": "Bu",
+        "place": "hamlet",
+        "ssr:stedsnr": "691342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8545417,
+          60.4697611
+        ]
+      },
+      "id": "node/9374801845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283259",
+        "name": "Erdal",
+        "place": "hamlet",
+        "ssr:stedsnr": "126633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9910001,
+          60.4817471
+        ]
+      },
+      "id": "node/7417283259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9095095680",
+        "name": "Fivlingen",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0802298,
+          60.4175169
+        ]
+      },
+      "id": "node/9095095680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797172",
+        "name": "Kvammen",
+        "place": "hamlet",
+        "ssr:stedsnr": "794746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0975337,
+          60.4438644
+        ]
+      },
+      "id": "node/9374797172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352193436",
+        "name": "Tveit",
+        "place": "hamlet",
+        "ssr:stedsnr": "645626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2021387,
+          60.5016893
+        ]
+      },
+      "id": "node/4352193436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6219460061",
+        "alt_name": "Vøringsfoss",
+        "name": "Midtbø",
+        "place": "hamlet",
+        "ssr:stedsnr": "551734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2627333,
+          60.4261417
+        ]
+      },
+      "id": "node/6219460061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374797200",
+        "historic": "shieling",
+        "name": "Gryteskarsete",
+        "place": "hamlet",
+        "ssr:stedsnr": "309721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.28525,
+          60.4360472
+        ]
+      },
+      "id": "node/9374797200"
+    }
+  ]
+}

@@ -1,0 +1,2215 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-07-16T21:08:16Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499515846",
+        "ele": "1301",
+        "name": "Fljotdalsfjellet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "915514"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1907702,
+          60.3464172
+        ]
+      },
+      "id": "node/499515846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764519150",
+        "ele": "1424",
+        "name": "Skytjedalsfjellet",
+        "natural": "hill",
+        "place": "locality",
+        "source": "N50 map",
+        "ssr:stedsnr": "492196",
+        "wikidata": "Q31512983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3319684,
+          60.5147996
+        ]
+      },
+      "id": "node/3764519150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738118",
+        "loc_name": "Grjotfljått",
+        "name": "Grotflott",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "307345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2460806,
+          60.1467778
+        ]
+      },
+      "id": "node/9374738118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738166",
+        "name": "Fljåene",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "793349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2674028,
+          60.1817417
+        ]
+      },
+      "id": "node/9374738166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738145",
+        "ele": "1456",
+        "name": "Bismarhei",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "429302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3121667,
+          60.1569667
+        ]
+      },
+      "id": "node/9374738145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738117",
+        "ele": "1372",
+        "name": "Olavsoksla",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "4312"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2890667,
+          60.1951833
+        ]
+      },
+      "id": "node/9374738117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738159",
+        "name": "Monsola-varden",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "489755"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3508611,
+          60.1485472
+        ]
+      },
+      "id": "node/9374738159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738142",
+        "ele": "1421",
+        "name": "Dimmedalshøgdene",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "4763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3738697,
+          60.1580536
+        ]
+      },
+      "id": "node/9374738142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730916",
+        "ele": "1412",
+        "name": "Gravargilshøgdene",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "66702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3499444,
+          60.1891111
+        ]
+      },
+      "id": "node/9374730916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738138",
+        "ele": "1332",
+        "name": "Lagarhovden",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3677667,
+          60.2032167
+        ]
+      },
+      "id": "node/9374738138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730912",
+        "ele": "1430",
+        "name": "Holbergsnutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "125736"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4667599,
+          60.1118083
+        ]
+      },
+      "id": "node/9374730912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738152",
+        "ele": "1384",
+        "name": "Lakadalskongen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "247741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4631333,
+          60.1399889
+        ]
+      },
+      "id": "node/9374738152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738140",
+        "ele": "1352",
+        "name": "Kjøthaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "65727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4784111,
+          60.13475
+        ]
+      },
+      "id": "node/9374738140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738154",
+        "ele": "1414",
+        "name": "Holbergskyrkja",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "854704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4884333,
+          60.1306472
+        ]
+      },
+      "id": "node/9374738154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738168",
+        "ele": "1346",
+        "name": "Brakanuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "672703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5189694,
+          60.1257
+        ]
+      },
+      "id": "node/9374738168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738123",
+        "name": "Grjothalsen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "915734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5307667,
+          60.1385306
+        ]
+      },
+      "id": "node/9374738123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730910",
+        "ele": "1305",
+        "name": "Finnskjeggjo",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "671735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4626611,
+          60.1616806
+        ]
+      },
+      "id": "node/9374730910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738127",
+        "ele": "1316",
+        "name": "Kongen og Dronninga",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "914746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4728944,
+          60.1552194
+        ]
+      },
+      "id": "node/9374738127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686289",
+        "name": "Kisteskarnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "308340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2015333,
+          60.2494028
+        ]
+      },
+      "id": "node/9374686289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738122",
+        "ele": "1146",
+        "name": "Brandaleitet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "916528"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1455361,
+          60.2909361
+        ]
+      },
+      "id": "node/9374738122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686166",
+        "name": "Køyrsleslaet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794494"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1917099,
+          60.3041116
+        ]
+      },
+      "id": "node/9374686166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686137",
+        "name": "Sørfjordingsrindane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "855349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3155056,
+          60.2391944
+        ]
+      },
+      "id": "node/9374686137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686284",
+        "name": "Lægreidsnutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "855629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2882639,
+          60.2874722
+        ]
+      },
+      "id": "node/9374686284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686233",
+        "name": "Syningen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "915487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3047222,
+          60.3070639
+        ]
+      },
+      "id": "node/9374686233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686316",
+        "ele": "1192",
+        "name": "Hellehamrane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430501"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1782889,
+          60.3207306
+        ]
+      },
+      "id": "node/9374686316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686150",
+        "name": "Skrubbhamrane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "369458"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1804083,
+          60.33865
+        ]
+      },
+      "id": "node/9374686150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686182",
+        "ele": "1229",
+        "name": "Vegarenollen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "5507"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1856612,
+          60.3246583
+        ]
+      },
+      "id": "node/9374686182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686236",
+        "name": "Smyttenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "39248"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1809034,
+          60.3746827
+        ]
+      },
+      "id": "node/9374686236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686271",
+        "name": "Bjørkehaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "584763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1805856,
+          60.3706246
+        ]
+      },
+      "id": "node/9374686271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686181",
+        "name": "Tinden",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "160647"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1814694,
+          60.4131583
+        ]
+      },
+      "id": "node/9374686181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686206",
+        "name": "Vetle Deildarkinn",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "871892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1952705,
+          60.3761929
+        ]
+      },
+      "id": "node/9374686206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686299",
+        "name": "Kilshaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "127602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.209783,
+          60.3733093
+        ]
+      },
+      "id": "node/9374686299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686263",
+        "name": "Memorgonuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "490535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2340616,
+          60.3652186
+        ]
+      },
+      "id": "node/9374686263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686266",
+        "ele": "1193",
+        "name": "Solmananuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1904779,
+          60.4056146
+        ]
+      },
+      "id": "node/9374686266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686260",
+        "name": "Eldhusberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "690637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2697925,
+          60.3389135
+        ]
+      },
+      "id": "node/9374686260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686227",
+        "ele": "1482",
+        "name": "Jørundsskarnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "369445"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2931944,
+          60.3118556
+        ]
+      },
+      "id": "node/9374686227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686203",
+        "name": "Tverrgavlen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "733499"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2878333,
+          60.3257611
+        ]
+      },
+      "id": "node/9374686203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686175",
+        "name": "Fagernuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794537"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3340889,
+          60.3534694
+        ]
+      },
+      "id": "node/9374686175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686142",
+        "name": "Halsabrekka",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "523003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2527361,
+          60.4076694
+        ]
+      },
+      "id": "node/9374686142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686258",
+        "name": "Bjørkehaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "689876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.263162,
+          60.3967921
+        ]
+      },
+      "id": "node/9374686258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686178",
+        "name": "Rundehaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "749934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.277866,
+          60.391588
+        ]
+      },
+      "id": "node/9374686178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686294",
+        "name": "Fjellhaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "220063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2760755,
+          60.3922179
+        ]
+      },
+      "id": "node/9374686294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686161",
+        "name": "Fjellhaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430696"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2973056,
+          60.3935722
+        ]
+      },
+      "id": "node/9374686161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686198",
+        "name": "Hyttenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "5676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3329694,
+          60.3917139
+        ]
+      },
+      "id": "node/9374686198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738169",
+        "name": "Hestaleitet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "187688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4442028,
+          60.2095028
+        ]
+      },
+      "id": "node/9374738169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686214",
+        "name": "Nordvasshæ",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "66267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.410675,
+          60.2397139
+        ]
+      },
+      "id": "node/9374686214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686268",
+        "loc_name": "Berrnosa",
+        "name": "Bergnosa",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3865194,
+          60.2603944
+        ]
+      },
+      "id": "node/9374686268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686240",
+        "fixme": "consider natural=peak for the most distinct mountains in the district",
+        "name": "Nøkkanuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "491896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4000778,
+          60.305825
+        ]
+      },
+      "id": "node/9374686240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738135",
+        "ele": "1332",
+        "name": "Djevlane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "126689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4537222,
+          60.2162556
+        ]
+      },
+      "id": "node/9374738135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686255",
+        "name": "Gauteshaugane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "369904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4616222,
+          60.2885056
+        ]
+      },
+      "id": "node/9374686255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686269",
+        "name": "Høgahæ",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4553944,
+          60.30685
+        ]
+      },
+      "id": "node/9374686269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738164",
+        "ele": "1287",
+        "name": "Gunnarshaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "491979"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.542925,
+          60.279575
+        ]
+      },
+      "id": "node/9374738164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686188",
+        "ele": "1444",
+        "name": "Sildabunutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3509031,
+          60.3150597
+        ]
+      },
+      "id": "node/9374686188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686334",
+        "name": "Fannanutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "874218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.37445,
+          60.3273694
+        ]
+      },
+      "id": "node/9374686334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686216",
+        "name": "Saupskarnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "187868"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3479389,
+          60.349125
+        ]
+      },
+      "id": "node/9374686216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686180",
+        "name": "Oternotten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.390075,
+          60.3601583
+        ]
+      },
+      "id": "node/9374686180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686239",
+        "ele": "1109",
+        "name": "Vetle Bjoreinuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "66911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3651235,
+          60.3877059
+        ]
+      },
+      "id": "node/9374686239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686340",
+        "ele": "1280",
+        "name": "Store Bjoreinuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3843706,
+          60.371412
+        ]
+      },
+      "id": "node/9374686340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686237",
+        "name": "Bruskarva",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "308910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3618528,
+          60.40415
+        ]
+      },
+      "id": "node/9374686237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686293",
+        "name": "Lokkebakknuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "126564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3726639,
+          60.4096256
+        ]
+      },
+      "id": "node/9374686293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730887",
+        "ele": "1314",
+        "name": "Skarnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "5874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4961067,
+          60.3130742
+        ]
+      },
+      "id": "node/9374730887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686146",
+        "name": "Jenglenutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "673897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4766222,
+          60.3252111
+        ]
+      },
+      "id": "node/9374686146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686247",
+        "ele": "1240",
+        "name": "Nybunuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "369930"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4950361,
+          60.3563278
+        ]
+      },
+      "id": "node/9374686247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730895",
+        "name": "Steingardhæ",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "490884"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.52345,
+          60.3175722
+        ]
+      },
+      "id": "node/9374730895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686154",
+        "name": "Tua",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "611939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4740111,
+          60.3884917
+        ]
+      },
+      "id": "node/9374686154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686122",
+        "ele": "1363",
+        "name": "Dyranutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "490916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5094352,
+          60.3785629
+        ]
+      },
+      "id": "node/9374686122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730900",
+        "ele": "1308",
+        "name": "Larsbunuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5456528,
+          60.3642639
+        ]
+      },
+      "id": "node/9374730900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686217",
+        "name": "Dansarnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1817834,
+          60.4203038
+        ]
+      },
+      "id": "node/9374686217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686177",
+        "name": "Høgdene",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1939856,
+          60.4177748
+        ]
+      },
+      "id": "node/9374686177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686301",
+        "name": "Blånuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1976212,
+          60.4235172
+        ]
+      },
+      "id": "node/9374686301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686341",
+        "name": "Kvernhushaugane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "38750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2058069,
+          60.4220986
+        ]
+      },
+      "id": "node/9374686341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686286",
+        "name": "Tveitaskora",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "524670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1848833,
+          60.4276194
+        ]
+      },
+      "id": "node/9374686286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686199",
+        "name": "Måbøberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "749890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2152611,
+          60.4179694
+        ]
+      },
+      "id": "node/9374686199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686169",
+        "name": "Gamlaberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "21931"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2232818,
+          60.4160921
+        ]
+      },
+      "id": "node/9374686169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686193",
+        "fixme": "consider natural=peak for the most distinct mountains in the district",
+        "name": "Skaggen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2342084,
+          60.4354445
+        ]
+      },
+      "id": "node/9374686193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686257",
+        "name": "Torsteinshaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430738"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2270583,
+          60.4525111
+        ]
+      },
+      "id": "node/9374686257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686211",
+        "name": "Selgjerdnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "126638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1798222,
+          60.4797778
+        ]
+      },
+      "id": "node/9374686211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686344",
+        "name": "Reinsnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "733622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2234333,
+          60.4882611
+        ]
+      },
+      "id": "node/9374686344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686184",
+        "name": "Båsahaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2429778,
+          60.4206917
+        ]
+      },
+      "id": "node/9374686184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686320",
+        "name": "Tyssvikhamrane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "705056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2395911,
+          60.438114
+        ]
+      },
+      "id": "node/9374686320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686309",
+        "alt_name": "Roaldshaugen",
+        "ele": "780.4",
+        "name": "Roaldshaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "342599"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2734267,
+          60.4271896
+        ]
+      },
+      "id": "node/9374686309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686346",
+        "name": "Bjørkehaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "827035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.273078,
+          60.4304132
+        ]
+      },
+      "id": "node/9374686346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686259",
+        "name": "Kapteinshaug",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "401049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2659951,
+          60.4407689
+        ]
+      },
+      "id": "node/9374686259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686261",
+        "ele": "1181",
+        "name": "Grønenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3344695,
+          60.4305667
+        ]
+      },
+      "id": "node/9374686261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686171",
+        "name": "Isdalstromma",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3082972,
+          60.4440472
+        ]
+      },
+      "id": "node/9374686171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686333",
+        "name": "Rauen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463415"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2898461,
+          60.4622766
+        ]
+      },
+      "id": "node/9374686333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686245",
+        "name": "Kleivafjellet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "734745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3340583,
+          60.4599167
+        ]
+      },
+      "id": "node/9374686245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686281",
+        "name": "Alhaugane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "38452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2706056,
+          60.472675
+        ]
+      },
+      "id": "node/9374686281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686267",
+        "name": "Væte",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "308592"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2635349,
+          60.4888281
+        ]
+      },
+      "id": "node/9374686267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686234",
+        "name": "Rjuperusti",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "463417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2927971,
+          60.4673968
+        ]
+      },
+      "id": "node/9374686234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686185",
+        "name": "Rjuven",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "308546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3634336,
+          60.415449
+        ]
+      },
+      "id": "node/9374686185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686231",
+        "ele": "1110",
+        "name": "Attekvelvnuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "5567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3635694,
+          60.4219681
+        ]
+      },
+      "id": "node/9374686231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686139",
+        "name": "Stålhatten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "430715"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3422056,
+          60.4491722
+        ]
+      },
+      "id": "node/9374686139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686186",
+        "alt_name": "Bjørkehaug",
+        "name": "Bjørkhaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "672531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.394291,
+          60.4172896
+        ]
+      },
+      "id": "node/9374686186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686335",
+        "alt_name": "Hansalinut",
+        "name": "Hansalinuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "611580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3986023,
+          60.4324065
+        ]
+      },
+      "id": "node/9374686335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686275",
+        "name": "Vetlaslaet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551578"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4044203,
+          60.4356954
+        ]
+      },
+      "id": "node/9374686275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686196",
+        "name": "Storaslaet",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "612601"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.416468,
+          60.4457191
+        ]
+      },
+      "id": "node/9374686196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686254",
+        "name": "Vetlaberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "188628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4176137,
+          60.4409735
+        ]
+      },
+      "id": "node/9374686254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686323",
+        "name": "Storaberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "673602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4368739,
+          60.444302
+        ]
+      },
+      "id": "node/9374686323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686288",
+        "ele": "1205.5",
+        "name": "Bjørnanuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "794584"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4421204,
+          60.4474476
+        ]
+      },
+      "id": "node/9374686288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686252",
+        "name": "Primbyttevardane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "916642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3630746,
+          60.4868912
+        ]
+      },
+      "id": "node/9374686252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686151",
+        "name": "Kvannjolenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4474768,
+          60.4162648
+        ]
+      },
+      "id": "node/9374686151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119657",
+        "ele": "1214",
+        "name": "Smyttenutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "5573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4877913,
+          60.4333967
+        ]
+      },
+      "id": "node/8828119657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686128",
+        "name": "Nordre Gjerenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5196222,
+          60.4824639
+        ]
+      },
+      "id": "node/9374686128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738136",
+        "ele": "1342",
+        "name": "Krakavadnutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "307699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5661306,
+          60.1761333
+        ]
+      },
+      "id": "node/9374738136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730897",
+        "ele": "1321",
+        "name": "Hyttehaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "66882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6086833,
+          60.3011417
+        ]
+      },
+      "id": "node/9374730897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730904",
+        "ele": "1285",
+        "name": "Falkafangaren",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "916908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.590975,
+          60.3136389
+        ]
+      },
+      "id": "node/9374730904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730902",
+        "ele": "1332",
+        "name": "Jakobsbunuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "612901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6305835,
+          60.3176939
+        ]
+      },
+      "id": "node/9374730902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374535509",
+        "name": "Skiftessjøhæ",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "490913"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5629114,
+          60.3874734
+        ]
+      },
+      "id": "node/9374535509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686134",
+        "name": "Dyraheia",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "490545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6055738,
+          60.4134966
+        ]
+      },
+      "id": "node/9374686134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686126",
+        "name": "Lågahæ",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "551910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6481333,
+          60.4066444
+        ]
+      },
+      "id": "node/9374686126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730903",
+        "ele": "1356",
+        "name": "Skaupsjøberget",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "248887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.658476,
+          60.3479166
+        ]
+      },
+      "id": "node/9374730903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730901",
+        "name": "Lundhaukenutane",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "672936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6568972,
+          60.3674611
+        ]
+      },
+      "id": "node/9374730901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374535515",
+        "name": "Vetle Kjeldenuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "491608"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5990111,
+          60.4564
+        ]
+      },
+      "id": "node/9374535515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686125",
+        "name": "Langehaugen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "66559"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6482889,
+          60.4440389
+        ]
+      },
+      "id": "node/9374686125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374535516",
+        "name": "Istjørnreset",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "855605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.59075,
+          60.478375
+        ]
+      },
+      "id": "node/9374535516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686131",
+        "name": "Olavsbuhæa",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "855586"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6701167,
+          60.4401028
+        ]
+      },
+      "id": "node/9374686131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686130",
+        "name": "Drageidberga",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "612610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6801333,
+          60.4596694
+        ]
+      },
+      "id": "node/9374686130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686117",
+        "name": "Andersbunuten",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "916625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.680905,
+          60.4786851
+        ]
+      },
+      "id": "node/9374686117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686120",
+        "name": "Bergsmulen",
+        "natural": "hill",
+        "place": "locality",
+        "ssr:stedsnr": "189228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6979245,
+          60.5229617
+        ]
+      },
+      "id": "node/9374686120"
+    }
+  ]
+}

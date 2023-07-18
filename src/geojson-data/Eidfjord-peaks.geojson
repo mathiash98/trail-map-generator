@@ -1,0 +1,3109 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-07-16T20:38:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1416563740",
+        "ele": "1054",
+        "name": "Rundenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1383571,
+          60.3361336
+        ]
+      },
+      "id": "node/1416563740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1876758602",
+        "ele": "1485",
+        "name": "Nordre Midnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "552291"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5888886,
+          60.5381224
+        ]
+      },
+      "id": "node/1876758602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1876758603",
+        "ele": "1488",
+        "name": "Søre Midnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "917214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6013142,
+          60.5200267
+        ]
+      },
+      "id": "node/1876758603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419228871",
+        "ele": "101",
+        "name:en": "Hodna",
+        "natural": "peak",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0770777,
+          60.4678519
+        ]
+      },
+      "id": "node/2419228871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517564",
+        "ele": "1300",
+        "name": "Hallingehaugane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "5678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2092956,
+          60.388942
+        ]
+      },
+      "id": "node/2805517564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517565",
+        "ele": "1223",
+        "name": "Grytehorga",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "916739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3048313,
+          60.4200055
+        ]
+      },
+      "id": "node/2805517565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517566",
+        "ele": "1339",
+        "name": "Svolnos",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "794633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2911083,
+          60.47605
+        ]
+      },
+      "id": "node/2805517566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517570",
+        "ele": "1485",
+        "name": "Store Ishaug",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "551629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2013583,
+          60.467775
+        ]
+      },
+      "id": "node/2805517570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2805517571",
+        "ele": "1303",
+        "name": "Vetle Ishaug",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "430728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2570594,
+          60.4634953
+        ]
+      },
+      "id": "node/2805517571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764204973",
+        "ele": "1763",
+        "name": "Olavsvarden",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "387000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3914629,
+          60.5472139
+        ]
+      },
+      "id": "node/3764204973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764204974",
+        "name": "Træet",
+        "natural": "peak",
+        "source": "N50 map;DNT Oslo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3245663,
+          60.5236267
+        ]
+      },
+      "id": "node/3764204974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764293942",
+        "name": "Matskornipen",
+        "natural": "peak",
+        "place": "locality",
+        "source": "N50 map",
+        "ssr:stedsnr": "552287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5106409,
+          60.5113493
+        ]
+      },
+      "id": "node/3764293942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764519148",
+        "ele": "1654",
+        "name": "Juklanutane",
+        "natural": "peak",
+        "place": "locality",
+        "source": "N50 map",
+        "ssr:stedsnr": "916643"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.417843,
+          60.4937712
+        ]
+      },
+      "id": "node/3764519148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764519149",
+        "ele": "1289",
+        "name": "Leirhalsen",
+        "natural": "peak",
+        "place": "locality",
+        "source": "N50 map",
+        "ssr:stedsnr": "66568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4175056,
+          60.458375
+        ]
+      },
+      "id": "node/3764519149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3764560576",
+        "ele": "1566",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3499108,
+          60.5178259
+        ]
+      },
+      "id": "node/3764560576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5899090631",
+        "ele": "1459",
+        "name": "Fagranuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9981295,
+          60.3623117
+        ]
+      },
+      "id": "node/5899090631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9095148235",
+        "ele": "1155",
+        "name": "Flatarehaug",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1163427,
+          60.3531535
+        ]
+      },
+      "id": "node/9095148235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909433138",
+        "ele": "1200",
+        "name": "Horga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0728917,
+          60.3714647
+        ]
+      },
+      "id": "node/8909433138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8910117483",
+        "ele": "1383",
+        "name": "Nasarabbane",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0296968,
+          60.4002403
+        ]
+      },
+      "id": "node/8910117483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678004",
+        "ele": "1484",
+        "name": "Ovaldsnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0391712,
+          60.3897432
+        ]
+      },
+      "id": "node/8907678004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8910117484",
+        "ele": "1347",
+        "name": "Kvannjolenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0374264,
+          60.4094859
+        ]
+      },
+      "id": "node/8910117484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8910117482",
+        "ele": "1406",
+        "name": "Valegga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0565551,
+          60.4019657
+        ]
+      },
+      "id": "node/8910117482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909433137",
+        "ele": "1131",
+        "name": "Nonhaug",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1184815,
+          60.3640899
+        ]
+      },
+      "id": "node/8909433137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9104041484",
+        "ele": "956",
+        "name": "Togahaugen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1108815,
+          60.382761
+        ]
+      },
+      "id": "node/9104041484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9104038593",
+        "ele": "1360",
+        "name": "Gummasteinsfjellet",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0802549,
+          60.3937803
+        ]
+      },
+      "id": "node/9104038593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678006",
+        "ele": "1092",
+        "name": "Vetlabrot",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1096163,
+          60.3892772
+        ]
+      },
+      "id": "node/8907678006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678005",
+        "ele": "1287",
+        "name": "Storabrot",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1044469,
+          60.3951024
+        ]
+      },
+      "id": "node/8907678005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909433136",
+        "ele": "971",
+        "name": "Veanuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.129815,
+          60.3913615
+        ]
+      },
+      "id": "node/8909433136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678007",
+        "ele": "931",
+        "name": "Reipenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1045651,
+          60.4044072
+        ]
+      },
+      "id": "node/8907678007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738143",
+        "ele": "1415",
+        "name": "Nibba",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "307343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2374417,
+          60.1594722
+        ]
+      },
+      "id": "node/9374738143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738130",
+        "ele": "1454",
+        "name": "Hærevardsnutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "793343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2824694,
+          60.1636472
+        ]
+      },
+      "id": "node/9374738130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738139",
+        "ele": "1472",
+        "name": "Høgevarden",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "125366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3218861,
+          60.1737667
+        ]
+      },
+      "id": "node/9374738139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738171",
+        "ele": "1388",
+        "name": "Hærevardane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "125361"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2912639,
+          60.1841306
+        ]
+      },
+      "id": "node/9374738171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738161",
+        "ele": "1478",
+        "name": "Lakadalsberga",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "550724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4402833,
+          60.145375
+        ]
+      },
+      "id": "node/9374738161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738147",
+        "ele": "1471",
+        "name": "Dimmedalshæ",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "65743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3951,
+          60.1593
+        ]
+      },
+      "id": "node/9374738147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738156",
+        "ele": "1428",
+        "name": "Holberget",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "368753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4878083,
+          60.1206861
+        ]
+      },
+      "id": "node/9374738156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738153",
+        "ele": "1379",
+        "name": "Sandhaugnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "855710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4893886,
+          60.1969435
+        ]
+      },
+      "id": "node/9374738153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738148",
+        "ele": "1378",
+        "name": "Heimste Smågrananuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "794345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2251306,
+          60.2303861
+        ]
+      },
+      "id": "node/9374738148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686276",
+        "ele": "1612",
+        "name": "Store Grananutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "916645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2272998,
+          60.2548911
+        ]
+      },
+      "id": "node/9374686276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686347",
+        "ele": "1363",
+        "name": "Haraldshaugane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "915500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2115444,
+          60.307
+        ]
+      },
+      "id": "node/9374686347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738163",
+        "ele": "1410",
+        "name": "Smågrananutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "855315"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2631889,
+          60.2253611
+        ]
+      },
+      "id": "node/9374738163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730914",
+        "alt_name": "Vierslahæ",
+        "ele": "1327",
+        "name": "Vierslanutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "126364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3368806,
+          60.2328467
+        ]
+      },
+      "id": "node/9374730914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686220",
+        "name": "Trongaskarnutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "794621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2449722,
+          60.2800444
+        ]
+      },
+      "id": "node/9374686220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686322",
+        "ele": "1516",
+        "name": "Låghellernuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "794614"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2834806,
+          60.2658083
+        ]
+      },
+      "id": "node/9374686322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686168",
+        "ele": "1506",
+        "name": "Fljånuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "672474"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2765528,
+          60.3041139
+        ]
+      },
+      "id": "node/9374686168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980744598",
+        "ele": "1301",
+        "name": "Fljotdalsfjellet",
+        "natural": "peak",
+        "source": "https://kartkatalog.geonorge.no/metadata/norske-fjell-med-hoeyde-over-1000-meter/71ab2bae-00f3-4dda-a505-fa8d8029dd24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.19074,
+          60.34655
+        ]
+      },
+      "id": "node/9980744598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105864437",
+        "ele": "1428",
+        "name": "Jonsokhøgda",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "308497"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2264278,
+          60.34655
+        ]
+      },
+      "id": "node/9105864437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105864438",
+        "ele": "1263",
+        "name": "Hellefjell",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1741694,
+          60.3990993
+        ]
+      },
+      "id": "node/9105864438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686159",
+        "ele": "1110",
+        "name": "Store Deildarkinn",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "567923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1927935,
+          60.3765645
+        ]
+      },
+      "id": "node/9374686159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105864432",
+        "ele": "1531",
+        "name": "Berakupen",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2492861,
+          60.3509639
+        ]
+      },
+      "id": "node/9105864432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135351643",
+        "ele": "1368",
+        "name": "Store Allgarden",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "794546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.313875,
+          60.3594917
+        ]
+      },
+      "id": "node/9135351643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135351645",
+        "ele": "1225",
+        "name": "Fruo",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "733519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2754379,
+          60.3721861
+        ]
+      },
+      "id": "node/9135351645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135351644",
+        "ele": "1160",
+        "name": "Vetle Allgarden",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3090769,
+          60.3861307
+        ]
+      },
+      "id": "node/9135351644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686300",
+        "ele": "1160",
+        "name": "Vetle Allgarden",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "612698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3089337,
+          60.3860946
+        ]
+      },
+      "id": "node/9374686300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135351642",
+        "ele": "1135",
+        "name": "Kistenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "491697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3255625,
+          60.3927978
+        ]
+      },
+      "id": "node/9135351642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738128",
+        "ele": "1295",
+        "name": "Grønahæ",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "308671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3947917,
+          60.2183528
+        ]
+      },
+      "id": "node/9374738128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686339",
+        "name": "Gjermundshaug",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "66965"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4040639,
+          60.2700694
+        ]
+      },
+      "id": "node/9374686339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980744585",
+        "ele": "1381",
+        "name": "Trondavadnutane",
+        "natural": "peak",
+        "source": "https://kartkatalog.geonorge.no/metadata/norske-fjell-med-hoeyde-over-1000-meter/71ab2bae-00f3-4dda-a505-fa8d8029dd24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.47777,
+          60.20541
+        ]
+      },
+      "id": "node/9980744585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738167",
+        "ele": "1385",
+        "name": "Trondavadnutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "5688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4888901,
+          60.210827
+        ]
+      },
+      "id": "node/9374738167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738150",
+        "ele": "1333",
+        "name": "Tverrhaug",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "871934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4652657,
+          60.2327286
+        ]
+      },
+      "id": "node/9374738150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686235",
+        "ele": "1349",
+        "name": "Ruvlenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "248984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4775,
+          60.2523056
+        ]
+      },
+      "id": "node/9374686235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738133",
+        "ele": "1327",
+        "name": "Sjonarhaug",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5031167,
+          60.2365306
+        ]
+      },
+      "id": "node/9374738133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738162",
+        "ele": "1287",
+        "name": "Hellehalsen",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "248975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5479945,
+          60.2634861
+        ]
+      },
+      "id": "node/9374738162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686176",
+        "ele": "1394",
+        "name": "Susaren",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "612904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.43845,
+          60.3149139
+        ]
+      },
+      "id": "node/9374686176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686204",
+        "ele": "1208",
+        "name": "Storlinutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "248931"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4206588,
+          60.4002136
+        ]
+      },
+      "id": "node/9374686204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897632933",
+        "ele": "1139",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5123966,
+          60.3479467
+        ]
+      },
+      "id": "node/8897632933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633176",
+        "ele": "1365",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.500112,
+          60.3594855
+        ]
+      },
+      "id": "node/8897633176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897632931",
+        "ele": "1230",
+        "name": "Bjoreidalshøgda",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "490882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5388936,
+          60.3457276
+        ]
+      },
+      "id": "node/8897632931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897632932",
+        "ele": "1180",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5242865,
+          60.3501427
+        ]
+      },
+      "id": "node/8897632932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897632934",
+        "ele": "1234",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5352036,
+          60.35863
+        ]
+      },
+      "id": "node/8897632934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633266",
+        "ele": "1145",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4770752,
+          60.3995042
+        ]
+      },
+      "id": "node/8897633266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633267",
+        "ele": "1352",
+        "fixme": "consider natural=peak for the most distinct mountains in the district",
+        "name": "Søre Gjerenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "66910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.488964,
+          60.3944566
+        ]
+      },
+      "id": "node/8897633267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633211",
+        "ele": "1260",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5215428,
+          60.3742806
+        ]
+      },
+      "id": "node/8897633211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686123",
+        "ele": "1291",
+        "name": "Svartatjørnnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "551908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5346417,
+          60.4056611
+        ]
+      },
+      "id": "node/9374686123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8902431001",
+        "ele": "963",
+        "name": "Kleppsnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8416827,
+          60.4483127
+        ]
+      },
+      "id": "node/8902431001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8899369390",
+        "ele": "1019",
+        "name": "Bunuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8493816,
+          60.4516226
+        ]
+      },
+      "id": "node/8899369390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9155655270",
+        "ele": "998",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8602224,
+          60.4500612
+        ]
+      },
+      "id": "node/9155655270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9935469676",
+        "name": "Selshaug",
+        "natural": "peak",
+        "peak": "hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8659024,
+          60.4617493
+        ]
+      },
+      "id": "node/9935469676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9155655271",
+        "ele": "1044",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8688027,
+          60.4512864
+        ]
+      },
+      "id": "node/9155655271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9155655272",
+        "ele": "1107",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8870148,
+          60.4512171
+        ]
+      },
+      "id": "node/9155655272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9935469677",
+        "ele": "330",
+        "name": "Storhaug",
+        "natural": "peak",
+        "peak": "hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8717918,
+          60.4627052
+        ]
+      },
+      "id": "node/9935469677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909433059",
+        "ele": "889",
+        "name": "Brimnesoksla",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9170531,
+          60.4621064
+        ]
+      },
+      "id": "node/8909433059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678000",
+        "ele": "1306",
+        "name": "Skoddedalsfjellet",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9298419,
+          60.4510011
+        ]
+      },
+      "id": "node/8907678000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909433058",
+        "ele": "1216",
+        "name": "Skrantafjellet",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9528529,
+          60.4539709
+        ]
+      },
+      "id": "node/8909433058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283266",
+        "ele": "957",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9960945,
+          60.43692
+        ]
+      },
+      "id": "node/7417283266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8910117485",
+        "ele": "1276",
+        "name": "Vassliegga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0125417,
+          60.4173451
+        ]
+      },
+      "id": "node/8910117485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8910117486",
+        "ele": "686",
+        "name": "Slettafjell",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9665043,
+          60.5066646
+        ]
+      },
+      "id": "node/8910117486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9105872618",
+        "ele": "1056",
+        "name": "Sutenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0248972,
+          60.4671761
+        ]
+      },
+      "id": "node/9105872618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283264",
+        "ele": "1161",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0407389,
+          60.4221603
+        ]
+      },
+      "id": "node/7417283264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283263",
+        "ele": "1086",
+        "name": "Nøkken",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0720534,
+          60.4321402
+        ]
+      },
+      "id": "node/7417283263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283265",
+        "ele": "1256",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0444161,
+          60.4430594
+        ]
+      },
+      "id": "node/7417283265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283258",
+        "name": "Øktarnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0318425,
+          60.4575847
+        ]
+      },
+      "id": "node/7417283258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283257",
+        "ele": "1236",
+        "name": "Midnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0279082,
+          60.4621467
+        ]
+      },
+      "id": "node/7417283257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8907678008",
+        "ele": "1057",
+        "name": "Middagsnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0670773,
+          60.4441979
+        ]
+      },
+      "id": "node/8907678008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283262",
+        "ele": "771",
+        "name": "Stigaberg",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1054839,
+          60.4184418
+        ]
+      },
+      "id": "node/7417283262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5538123057",
+        "ele": "1495",
+        "name": "Skorsonen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0613765,
+          60.5170043
+        ]
+      },
+      "id": "node/5538123057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283260",
+        "ele": "922",
+        "name": "Vindoksla",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1061831,
+          60.4709001
+        ]
+      },
+      "id": "node/7417283260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8908037652",
+        "ele": "1208",
+        "name": "Hotlenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0799801,
+          60.49894
+        ]
+      },
+      "id": "node/8908037652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8908156928",
+        "ele": "1576",
+        "name": "Hotleonen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0792942,
+          60.5156575
+        ]
+      },
+      "id": "node/8908156928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5538123058",
+        "ele": "1587",
+        "name": "Øykjeskarsnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0582008,
+          60.5242904
+        ]
+      },
+      "id": "node/5538123058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5538123061",
+        "ele": "1620",
+        "name": "Onen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0742297,
+          60.5247075
+        ]
+      },
+      "id": "node/5538123061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417283261",
+        "ele": "1246",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1446454,
+          60.4486296
+        ]
+      },
+      "id": "node/7417283261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135258931",
+        "ele": "1114",
+        "name": "Tinden",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "612731"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.193915,
+          60.4337689
+        ]
+      },
+      "id": "node/9135258931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909249023",
+        "ele": "1157",
+        "name": "Kalvanesnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1426508,
+          60.4835273
+        ]
+      },
+      "id": "node/8909249023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980744539",
+        "ele": "1247",
+        "name": "Bjørnskornuten",
+        "natural": "peak",
+        "source": "https://kartkatalog.geonorge.no/metadata/norske-fjell-med-hoeyde-over-1000-meter/71ab2bae-00f3-4dda-a505-fa8d8029dd24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.20982,
+          60.5178
+        ]
+      },
+      "id": "node/9980744539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146072",
+        "ele": "1241",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2221686,
+          60.5189925
+        ]
+      },
+      "id": "node/8848146072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146077",
+        "ele": "922",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2575698,
+          60.4376445
+        ]
+      },
+      "id": "node/8848146077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135258886",
+        "ele": "1181",
+        "name": "Grønenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3342767,
+          60.4306091
+        ]
+      },
+      "id": "node/9135258886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146071",
+        "ele": "1070",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2429866,
+          60.5176967
+        ]
+      },
+      "id": "node/8848146071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119663",
+        "ele": "1196",
+        "name": "Torskjelshøgda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2795211,
+          60.5151443
+        ]
+      },
+      "id": "node/8828119663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135258929",
+        "ele": "1208",
+        "name": "Skytjedalsstrupen",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "673646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3133761,
+          60.4804399
+        ]
+      },
+      "id": "node/9135258929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135258930",
+        "ele": "1170",
+        "name": "Raudbjørg",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "308609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3361467,
+          60.4711909
+        ]
+      },
+      "id": "node/9135258930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119664",
+        "ele": "1295",
+        "name": "Moldnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3007077,
+          60.5168504
+        ]
+      },
+      "id": "node/8828119664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8908189051",
+        "ele": "1306",
+        "name": "Meisahøgda",
+        "natural": "peak",
+        "wikidata": "Q32125689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1603402,
+          60.5215189
+        ]
+      },
+      "id": "node/8908189051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5538123056",
+        "ele": "1351",
+        "name": "Gruvlenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1600497,
+          60.5364619
+        ]
+      },
+      "id": "node/5538123056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146073",
+        "ele": "1242",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2245953,
+          60.520989
+        ]
+      },
+      "id": "node/8848146073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119670",
+        "ele": "1209",
+        "name": "Vardeskorvet",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2302483,
+          60.5358235
+        ]
+      },
+      "id": "node/8828119670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146070",
+        "ele": "1000",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2528114,
+          60.525461
+        ]
+      },
+      "id": "node/8848146070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146069",
+        "ele": "1035",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2568674,
+          60.5330665
+        ]
+      },
+      "id": "node/8848146069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119668",
+        "name": "Lureggane",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2552426,
+          60.5449029
+        ]
+      },
+      "id": "node/8828119668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119665",
+        "ele": "1147",
+        "name": "Skoranuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2766751,
+          60.5195222
+        ]
+      },
+      "id": "node/8828119665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146068",
+        "ele": "1020",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2659265,
+          60.5362091
+        ]
+      },
+      "id": "node/8848146068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119669",
+        "ele": "1308",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.251656,
+          60.549624
+        ]
+      },
+      "id": "node/8828119669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119667",
+        "ele": "1453",
+        "name": "Raudhaugane",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2603515,
+          60.5574421
+        ]
+      },
+      "id": "node/8828119667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135920999",
+        "ele": "1447",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2592291,
+          60.5590497
+        ]
+      },
+      "id": "node/9135920999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119660",
+        "ele": "1510",
+        "name": "Tresnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "673153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3291805,
+          60.532275
+        ]
+      },
+      "id": "node/8828119660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119666",
+        "ele": "1620",
+        "name": "Luranuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2975112,
+          60.5489865
+        ]
+      },
+      "id": "node/8828119666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8909249025",
+        "ele": "1649",
+        "name": "Luranuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2877992,
+          60.5542493
+        ]
+      },
+      "id": "node/8909249025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135920998",
+        "ele": "1729",
+        "name": "Ramnabergnuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3203452,
+          60.572281
+        ]
+      },
+      "id": "node/9135920998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633311",
+        "ele": "986",
+        "name": "Tverrlihaugen",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "491604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4447051,
+          60.4388856
+        ]
+      },
+      "id": "node/8897633311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135956939",
+        "ele": "1238",
+        "name": "Leirhalsnosa",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "855591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4376732,
+          60.4508351
+        ]
+      },
+      "id": "node/9135956939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9135956938",
+        "ele": "1355",
+        "name": "Vetle Isdølenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "551599"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3820889,
+          60.4832111
+        ]
+      },
+      "id": "node/9135956938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119661",
+        "ele": "1677",
+        "name": "Store Tresnuten",
+        "natural": "peak",
+        "ssr:stedsnr": "189230",
+        "wikidata": "Q31513449"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3582439,
+          60.5119325
+        ]
+      },
+      "id": "node/8828119661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119662",
+        "ele": "1678",
+        "name": "Store Isdølenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "916640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3959861,
+          60.5005801
+        ]
+      },
+      "id": "node/8828119662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633310",
+        "ele": "1000",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4562397,
+          60.438282
+        ]
+      },
+      "id": "node/8897633310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633309",
+        "ele": "1015",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4643568,
+          60.4322554
+        ]
+      },
+      "id": "node/8897633309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633307",
+        "ele": "1070",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4701482,
+          60.4367339
+        ]
+      },
+      "id": "node/8897633307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633308",
+        "ele": "1196",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4822874,
+          60.4368079
+        ]
+      },
+      "id": "node/8897633308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633312",
+        "ele": "1038",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4654202,
+          60.4471196
+        ]
+      },
+      "id": "node/8897633312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119658",
+        "ele": "1156",
+        "loc_name": "Leirenuten",
+        "name": "Leirnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "916618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4960889,
+          60.4581306
+        ]
+      },
+      "id": "node/8828119658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686121",
+        "name": "Fisketjørnnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "430590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5243889,
+          60.4327917
+        ]
+      },
+      "id": "node/9374686121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119659",
+        "ele": "1386",
+        "name": "Moldenutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369552"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4452426,
+          60.4784464
+        ]
+      },
+      "id": "node/8828119659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897633403",
+        "ele": "1084",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.491827,
+          60.4702612
+        ]
+      },
+      "id": "node/8897633403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119671",
+        "ele": "1248",
+        "name": "Austra Leirebottsskåka",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4926782,
+          60.5023593
+        ]
+      },
+      "id": "node/8828119671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119650",
+        "ele": "1477",
+        "name": "Nordre Gjerenuten",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5195106,
+          60.4823336
+        ]
+      },
+      "id": "node/8828119650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119649",
+        "ele": "1244",
+        "name": "Lassheldreslaet",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5361665,
+          60.4934655
+        ]
+      },
+      "id": "node/8828119649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119646",
+        "ele": "1544",
+        "name": "Helvetesnutane",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "431285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5492491,
+          60.5149516
+        ]
+      },
+      "id": "node/8828119646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730911",
+        "ele": "1309",
+        "name": "Utsikten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "429728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5572889,
+          60.1582694
+        ]
+      },
+      "id": "node/9374730911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730909",
+        "ele": "1344",
+        "loc_name": "Svintenuten",
+        "name": "Trondsbunuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "734893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5636528,
+          60.3008889
+        ]
+      },
+      "id": "node/9374730909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374738119",
+        "ele": "1302",
+        "name": "Endahæ",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "309910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5897333,
+          60.289025
+        ]
+      },
+      "id": "node/9374738119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8897632930",
+        "ele": "1245",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5548514,
+          60.3471363
+        ]
+      },
+      "id": "node/8897632930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730890",
+        "ele": "1306",
+        "name": "Nybuheia",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "5926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5917055,
+          60.3551167
+        ]
+      },
+      "id": "node/9374730890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730893",
+        "ele": "1404",
+        "name": "Skaupsjøbrotet",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.653074,
+          60.335466
+        ]
+      },
+      "id": "node/9374730893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828165320",
+        "ele": "1375",
+        "name": "Håsteinsreet",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "490881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6344639,
+          60.3399028
+        ]
+      },
+      "id": "node/8828165320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686133",
+        "ele": "1371",
+        "name": "Steinbunuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5956694,
+          60.3724611
+        ]
+      },
+      "id": "node/9374686133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848149537",
+        "ele": "1184",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.572662,
+          60.4076616
+        ]
+      },
+      "id": "node/8848149537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980744575",
+        "ele": "1248",
+        "name": "Lågahæ",
+        "natural": "peak",
+        "source": "https://kartkatalog.geonorge.no/metadata/norske-fjell-med-hoeyde-over-1000-meter/71ab2bae-00f3-4dda-a505-fa8d8029dd24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.64813,
+          60.40665
+        ]
+      },
+      "id": "node/9980744575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374730899",
+        "ele": "1388",
+        "name": "Grasnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "248910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6713889,
+          60.3108194
+        ]
+      },
+      "id": "node/9374730899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374535504",
+        "ele": "1348",
+        "name": "Dalborenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "127629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5766833,
+          60.4455556
+        ]
+      },
+      "id": "node/9374535504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119656",
+        "ele": "1452",
+        "name": "Store Kjeldenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "5583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6116741,
+          60.4666845
+        ]
+      },
+      "id": "node/8828119656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119651",
+        "ele": "1280",
+        "name": "Skoranuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "734642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5642556,
+          60.4809222
+        ]
+      },
+      "id": "node/8828119651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119652",
+        "ele": "1447",
+        "name": "Istjørnnuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "248620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5904156,
+          60.482758
+        ]
+      },
+      "id": "node/8828119652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119648",
+        "ele": "1374",
+        "name": "Lassheldrenuten",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "187567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.551475,
+          60.4936583
+        ]
+      },
+      "id": "node/8828119648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119647",
+        "ele": "1507",
+        "name": "Helveteshorga",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "128230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5645135,
+          60.5012017
+        ]
+      },
+      "id": "node/8828119647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119653",
+        "ele": "1366",
+        "name": "Krobuhalsen",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.64316,
+          60.4808102
+        ]
+      },
+      "id": "node/8828119653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374686127",
+        "ele": "1521",
+        "name": "Finnsberg",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "126593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.643775,
+          60.5065861
+        ]
+      },
+      "id": "node/9374686127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848149405",
+        "ele": "1307",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6638951,
+          60.4308701
+        ]
+      },
+      "id": "node/8848149405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119655",
+        "ele": "1346",
+        "name": "Hæa",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6731226,
+          60.4369563
+        ]
+      },
+      "id": "node/8828119655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5094178752",
+        "ele": "1358",
+        "name": "Halnekollen",
+        "natural": "peak",
+        "peak": "hill",
+        "source": "https://kartkatalog.geonorge.no/metadata/norske-fjell-med-hoeyde-over-1000-meter/71ab2bae-00f3-4dda-a505-fa8d8029dd24",
+        "ssr:stedsnr": "915545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6939853,
+          60.4263477
+        ]
+      },
+      "id": "node/5094178752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8828119654",
+        "ele": "1351",
+        "name": "Blåfjell",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7024335,
+          60.4806738
+        ]
+      },
+      "id": "node/8828119654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374535507",
+        "name": "Blåfjell",
+        "natural": "peak",
+        "place": "locality",
+        "ssr:stedsnr": "369547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7034444,
+          60.4865667
+        ]
+      },
+      "id": "node/9374535507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146061",
+        "ele": "1435",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5642497,
+          60.5320222
+        ]
+      },
+      "id": "node/8848146061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146060",
+        "ele": "1415",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5776566,
+          60.5306939
+        ]
+      },
+      "id": "node/8848146060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146059",
+        "ele": "1386",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5889233,
+          60.5303929
+        ]
+      },
+      "id": "node/8848146059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8848146058",
+        "ele": "1373",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5960021,
+          60.5309787
+        ]
+      },
+      "id": "node/8848146058"
+    }
+  ]
+}
