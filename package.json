@@ -12,7 +12,8 @@
     "vue": "^3.3.4",
     "ol": "7.4.0",
     "mapbox-gl": "2.15.0",
-    "@watergis/mapbox-gl-export": "2.0.1"
+    "@watergis/mapbox-gl-export": "2.0.1",
+    "osmtogeojson": "3.0.0-beta.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
