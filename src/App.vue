@@ -16,34 +16,34 @@ import { View, Map } from "ol";
 import GeoJson from "ol/format/GeoJSON";
 import Link from "ol/interaction/Link";
 // import OSM from "ol/source/OSM";
+// import TileLayer from "ol/layer/WebGLTile";
 // import { Raster, XYZ } from "ol/source";
 // import ImageLayer from "ol/layer/Image";
-// import TileLayer from "ol/layer/WebGLTile";
-import Feature from "ol/Feature";
-import Geometry from "ol/geom/Geometry";
+// import Feature from "ol/Feature";
+// import Geometry from "ol/geom/Geometry";
 import { fromLonLat } from "ol/proj";
 import { Style, Circle, Text, Fill, Stroke } from "ol/style";
 import type { FeatureLike } from "ol/Feature";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
 // [natural=peak]
-import EidfjordPeaks from "./geojson-data/Eidfjord-peaks.geojson?raw";
+import EidfjordPeaks from "./geojson-data/Eidfjord-peaks.geojson";
 // [natural=hill]
-import EidfjordHills from "./geojson-data/Eidfjord-hills.geojson?raw";
+import EidfjordHills from "./geojson-data/Eidfjord-hills.geojson";
 // ["highway"="path"]
-import EidfjordPaths from "./geojson-data/Eidfjord-paths.geojson?raw";
+import EidfjordPaths from "./geojson-data/Eidfjord-paths.geojson";
 // ["highway"="piste"]
-import EidfjordPiste from "./geojson-data/Eidfjord-piste.geojson?raw";
+import EidfjordPiste from "./geojson-data/Eidfjord-piste.geojson";
 // [place=farm]
-import EidfjordFarms from "./geojson-data/Eidfjord-farms.geojson?raw";
+import EidfjordFarms from "./geojson-data/Eidfjord-farms.geojson";
 // [place=hamlet]
-import EidfjordHamlets from "./geojson-data/Eidfjord-hamlets.geojson?raw";
+import EidfjordHamlets from "./geojson-data/Eidfjord-hamlets.geojson";
 // [natural=water]
-import EidfjordWater from "./geojson-data/Eidfjord-water.geojson?raw";
+import EidfjordWater from "./geojson-data/Eidfjord-water.geojson";
 // [highway]["highway"!~"footway"]["highway"!~"path"]["highway"!~"piste"]
-import EidfjordHighway from "./geojson-data/Eidfjord-highway.geojson?raw";
+import EidfjordHighway from "./geojson-data/Eidfjord-highway.geojson";
 // [waterway]
-import EidfjordWaterway from "./geojson-data/Eidfjord-waterway.geojson?raw";
+import EidfjordWaterway from "./geojson-data/Eidfjord-waterway.geojson";
 
 const getFont = (fontSize: number) => `${fontSize}px Georgia`;
 const labelStyle = new Style({
@@ -126,43 +126,43 @@ function getPointStyle(feature: FeatureLike, fontSize = 20): Style {
 
 const layers: { [key: string]: Layer } = {
   peak: {
-    source: new GeoJson().readFeatures(EidfjordPeaks),
+    source: EidfjordPeaks,
     style: (feature) => getPeakStyle(feature),
     declutter: true,
     zIndex: 850,
   },
   hill: {
-    source: new GeoJson().readFeatures(EidfjordHills),
+    source: EidfjordHills,
     style: (feature) => getPointStyle(feature, 14),
     declutter: true,
     zIndex: 800,
   },
   path: {
-    source: new GeoJson().readFeatures(EidfjordPaths),
+    source: EidfjordPaths,
     style: pathStyle,
     declutter: true,
     zIndex: 100,
   },
   piste: {
-    source: new GeoJson().readFeatures(EidfjordPiste),
+    source: EidfjordPiste,
     style: pisteStyle,
     declutter: true,
     zIndex: 150,
   },
   farm: {
-    source: new GeoJson().readFeatures(EidfjordFarms),
+    source: EidfjordFarms,
     style: (feature) => getPointStyle(feature, 18),
     declutter: true,
     zIndex: 500,
   },
   hamlet: {
-    source: new GeoJson().readFeatures(EidfjordHamlets),
+    source: EidfjordHamlets,
     style: (feature) => getPointStyle(feature, 18),
     declutter: true,
     zIndex: 550,
   },
   water: {
-    source: new GeoJson().readFeatures(EidfjordWater),
+    source: EidfjordWater,
     style: () => [
       new Style({
         fill: new Fill({
@@ -179,7 +179,7 @@ const layers: { [key: string]: Layer } = {
     zIndex: 10,
   },
   waterway: {
-    source: new GeoJson().readFeatures(EidfjordWaterway),
+    source: EidfjordWaterway,
     style: new Style({
       stroke: new Stroke({
         color: "#cee0e4",
@@ -190,7 +190,7 @@ const layers: { [key: string]: Layer } = {
     zIndex: 11,
   },
   highway: {
-    source: new GeoJson().readFeatures(EidfjordHighway),
+    source: EidfjordHighway,
     style: [
       // Outline the grey area
       // new Style({
@@ -221,6 +221,10 @@ onMounted(() => {
       projection: "EPSG:4326",
     }),
     layers: [
+      // new TileLayer({
+      //   source: new OSM(),
+      //   opacity: 0.4,
+      // }),
       // Hillshade does not work properly yet
       // new TileLayer({
       //   opacity: 0.2,
@@ -260,7 +264,9 @@ function addLayers(map: Map, layersObj: { [key: string]: Layer }) {
           name: layerName,
         },
         source: new VectorSource({
-          features: layer.source,
+          url: layer.source,
+          format: new GeoJson(),
+          // features: layer.source,
         }),
         style: layer.style,
         declutter: true,
@@ -270,7 +276,7 @@ function addLayers(map: Map, layersObj: { [key: string]: Layer }) {
 }
 
 type Layer = {
-  source: Feature<Geometry>[];
+  source: string;
   style:
     | ((feature: FeatureLike, resolution: number) => Style | Array<Style>)
     | Style

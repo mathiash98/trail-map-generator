@@ -5,4 +5,5 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   base: "/trail-map-generator/",
+  assetsInclude: ["**/*.geojson"],
 });
