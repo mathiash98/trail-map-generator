@@ -3,6 +3,7 @@
     <h1>Trail map generator</h1>
     <div class="main">
       <div id="map-preview"></div>
+      <div id="maplibre"></div>
       <!-- <div id="style-code">
         <textarea name="style" id="" cols="30" rows="10"></textarea>
       </div> -->
@@ -12,7 +13,18 @@
 
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { View, Map } from "ol";
+import maplibre from "maplibre-gl";
+import type { LayerSpecification, Map as maplibreGlMap } from "maplibre-gl";
+import mlcontour from "maplibre-contour";
+import {
+  MaplibreExportControl,
+  Size,
+  PageOrientation,
+  Format,
+  DPI,
+} from "@watergis/maplibre-gl-export";
+import "@watergis/maplibre-gl-export/dist/maplibre-gl-export.css";
+import { View, Map as OlMap } from "ol";
 import GeoJson from "ol/format/GeoJSON";
 import Link from "ol/interaction/Link";
 // import OSM from "ol/source/OSM";
@@ -191,13 +203,6 @@ const layers: { [key: string]: Layer } = {
   highway: {
     source: EidfjordHighway,
     style: [
-      // Outline the grey area
-      // new Style({
-      //   stroke: new Stroke({
-      //     color: "#fff",
-      //     width: 6,
-      //   }),
-      // }),
       new Style({
         stroke: new Stroke({
           color: "#aaa",
@@ -210,8 +215,102 @@ const layers: { [key: string]: Layer } = {
   },
 };
 
+const maplibreLayers: LayerSpecification[] = [
+  {
+    id: "water",
+    source: EidfjordWater,
+    type: "fill",
+    paint: {
+      "fill-color": "#cee0e4",
+      "fill-outline-color": "#000",
+      "fill-antialias": false,
+    },
+  },
+  {
+    id: "waterway",
+    source: EidfjordWaterway,
+    type: "line",
+    paint: {
+      "line-color": "#cee0e4",
+      "line-width": 1,
+    },
+  },
+  {
+    id: "highway",
+    source: EidfjordHighway,
+    type: "line",
+    paint: {
+      "line-color": "#aaa",
+      "line-width": 1.5,
+    },
+  },
+  {
+    id: "peak",
+    source: EidfjordPeaks,
+    type: "circle",
+    paint: {
+      "circle-radius": 2,
+      "circle-color": "#000",
+      "circle-stroke-color": "#fff",
+      "circle-stroke-width": 1,
+    },
+  },
+  {
+    id: "hill",
+    source: EidfjordHills,
+    type: "circle",
+    paint: {
+      "circle-radius": 2,
+      "circle-color": "#000",
+      "circle-stroke-color": "#fff",
+      "circle-stroke-width": 1,
+    },
+  },
+  {
+    id: "path",
+    source: EidfjordPaths,
+    type: "line",
+    paint: {
+      "line-dasharray": [6, 2],
+      "line-color": "#ff5c5c",
+      "line-width": 1.5,
+    },
+  },
+  {
+    id: "piste",
+    source: EidfjordPiste,
+    type: "line",
+    paint: {
+      "line-color": "#046c8b",
+      "line-width": 1.5,
+    },
+  },
+  {
+    id: "farm",
+    source: EidfjordFarms,
+    type: "circle",
+    paint: {
+      "circle-radius": 2,
+      "circle-color": "#000",
+      "circle-stroke-color": "#fff",
+      "circle-stroke-width": 1,
+    },
+  },
+  {
+    id: "hamlet",
+    source: EidfjordHamlets,
+    type: "circle",
+    paint: {
+      "circle-radius": 2,
+      "circle-color": "#000",
+      "circle-stroke-color": "#fff",
+      "circle-stroke-width": 1,
+    },
+  },
+];
+
 onMounted(() => {
-  const map = new Map({
+  const openLayersMap = new OlMap({
     target: "map-preview",
     view: new View({
       center: [800647.3315749887, 60.38762736055437],
@@ -219,41 +318,133 @@ onMounted(() => {
       maxZoom: 20,
       projection: "EPSG:4326",
     }),
-    layers: [
-      // new TileLayer({
-      //   source: new OSM(),
-      //   opacity: 0.4,
-      // }),
-      // Hillshade does not work properly yet
-      // new TileLayer({
-      //   opacity: 0.2,
-      //   source: new XYZ({
-      //     projection: "EPSG:3857",
-      //     url: "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
-      //     crossOrigin: "anonymous",
-      //     tileSize: 256,
-      //     maxZoom: 12,
-      //     minZoom: 5,
-      //   }),
-      //   style: {
-      //     variables: {
-      //       vert: 1,
-      //       sunEl: 20,
-      //       sunAz: 45,
-      //     },
-      //     color: ["color", scaled, scaled, scaled],
-      //   },
-      // }),
-    ],
   });
 
-  map.addInteraction(new Link());
+  openLayersMap.addInteraction(new Link());
 
-  addLayers(map, layers);
-  (window as unknown as any).map = map;
+  addLayers(openLayersMap, layers);
+  (window as unknown as any).olMap = openLayersMap;
+
+  const demSource = new mlcontour.DemSource({
+    url: "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+    encoding: "terrarium",
+    maxzoom: 12,
+    // offload contour line computation to a web worker
+    worker: true,
+  });
+
+  demSource.setupMaplibre(maplibre);
+
+  const maplibreMap = new maplibre.Map({
+    container: "maplibre",
+    zoom: 10,
+    center: [7.1907702, 60.3464172],
+    hash: false,
+    style: {
+      version: 8,
+      glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+      sources: {
+        hillshadeSource: {
+          type: "raster-dem",
+          // share cached raster-dem tiles with the contour source
+          tiles: [demSource.sharedDemProtocolUrl],
+          tileSize: 512,
+          maxzoom: 12,
+        },
+        contourSourceFeet: {
+          type: "vector",
+          tiles: [
+            demSource.contourProtocolUrl({
+              overzoom: 1,
+              thresholds: {
+                // zoom: [minor, major]
+                11: [200, 1000],
+                12: [100, 500],
+                13: [100, 500],
+                14: [50, 200],
+                15: [20, 100],
+              },
+              elevationKey: "ele",
+              levelKey: "level",
+              contourLayer: "contours",
+            }),
+          ],
+          maxzoom: 15,
+        },
+      },
+      layers: [
+        {
+          id: "background",
+          type: "background",
+          paint: {
+            "background-color": "#f4f2f1",
+          },
+        },
+        // {
+        //   id: "hills",
+        //   type: "hillshade",
+        //   source: "hillshadeSource",
+        //   paint: {
+        //     "hillshade-exaggeration": 0.1,
+        //   },
+        // },
+        {
+          id: "contours",
+          type: "line",
+          source: "contourSourceFeet",
+          "source-layer": "contours",
+          paint: {
+            "line-opacity": 0.5,
+            "line-color": "#333",
+            // "major" contours have level=1, "minor" have level=0
+            "line-width": ["match", ["get", "level"], 1, 1, 0.5],
+          },
+        },
+        {
+          id: "contour-text",
+          type: "symbol",
+          source: "contourSourceFeet",
+          "source-layer": "contours",
+          filter: [">", ["get", "level"], 0],
+          paint: {
+            "text-halo-color": "white",
+            "text-halo-width": 1,
+          },
+          layout: {
+            "symbol-placement": "line",
+            "text-size": 10,
+            "text-field": ["concat", ["get", "ele"], " m"],
+            "text-font": ["Noto Sans Bold"],
+          },
+        },
+      ],
+    },
+  });
+
+  maplibreMap.addControl(new maplibre.NavigationControl());
+  maplibreMap.addControl(new maplibre.ScaleControl({}));
+
+  // create control with specified options
+  maplibreMap.addControl(
+    new MaplibreExportControl({
+      PageSize: Size.A2,
+      PageOrientation: PageOrientation.Portrait,
+      Format: Format.PNG,
+      DPI: DPI[400],
+      Crosshair: true,
+      PrintableArea: true,
+    }),
+    "top-right"
+  );
+
+  maplibreMap.on("load", () => {
+    addLayersToMaplibre(maplibreMap, maplibreLayers);
+  });
+
+  (window as any).maplibreMap = maplibreMap;
 });
 
-function addLayers(map: Map, layersObj: { [key: string]: Layer }) {
+function addLayers(map: OlMap, layersObj: { [key: string]: Layer }) {
   for (const layerName in layersObj) {
     const layer = layersObj[layerName];
     map.addLayer(
@@ -271,6 +462,26 @@ function addLayers(map: Map, layersObj: { [key: string]: Layer }) {
         declutter: true,
       })
     );
+  }
+}
+
+function addLayersToMaplibre(
+  map: maplibreGlMap,
+  layersArr: LayerSpecification[]
+) {
+  for (const layer of layersArr) {
+    if ("source" in layer) {
+      map.addSource(layer.id, {
+        type: "geojson",
+        data: layer.source,
+      });
+      map.addLayer({
+        id: layer.id,
+        type: layer.type,
+        source: layer.id,
+        paint: layer.paint as any,
+      });
+    }
   }
 }
 
@@ -335,8 +546,9 @@ type Layer = {
   width: 100%;
 }
 
-#map-preview {
-  width: 100%;
+#map-preview,
+#maplibre {
+  width: 50%;
   height: 100%;
   background-color: #f4f2f1;
 }

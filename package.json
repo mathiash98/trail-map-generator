@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "ol": "7.4.0"
+    "ol": "7.4.0",
+    "maplibre-gl": "3.2.0",
+    "maplibre-contour": "0.0.3",
+    "@watergis/maplibre-gl-export": "3.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
