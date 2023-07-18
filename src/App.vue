@@ -243,7 +243,7 @@ async function handleKommuneFormSubmit(e: Event) {
   loadingData.value = true;
 
   try {
-    const overpassTurboApiUrl = `http://overpass-api.de/api/interpreter`;
+    const overpassTurboApiUrl = `https://overpass-api.de/api/interpreter`;
     for (const layer of layers) {
       const layerId = `${placeName.value}-${layer.id}`;
       const existingLayerSource = map.getSource(layerId);
