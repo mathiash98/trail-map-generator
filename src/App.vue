@@ -266,9 +266,9 @@ async function handleKommuneFormSubmit(e: Event) {
 
       const data = await response.json();
       const geojson = osmtogeojson(data);
-      console.info(`${layerId} num features ${geojson.features.length}`);
+      console.info(`${layerId} ${geojson.features.length} features.`);
       consoleMessages.value.push(
-        `${layerId} num features ${geojson.features.length}`
+        `${layerId} ${geojson.features.length} features.`
       );
 
       addLayerToMap(map, layer, layerId, geojson);
