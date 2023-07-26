@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <form
-      style="height: 50px; display: inline-flex"
-      @submit="handleKommuneFormSubmit"
-    >
+    <form @submit="handleKommuneFormSubmit">
       <label for="kommune">Location:</label>
       <input
         type="text"
@@ -17,9 +14,12 @@
       <p v-if="loadingData">Loading...</p>
       <p>{{ consoleMessages.at(-1) }}</p>
     </form>
-    <div class="main">
-      <div id="map-preview"></div>
-    </div>
+    <a
+      style="margin-left: 8px; color: lightblue"
+      href="https://github.com/mathiash98/trail-map-generator"
+      >GitHub</a
+    >
+    <div id="map-preview"></div>
   </div>
 </template>
 
@@ -93,7 +93,6 @@ async function handleKommuneFormSubmit(e: Event) {
   loadingData.value = true;
 
   try {
-    const overpassTurboApiUrl = `https://overpass-api.de/api/interpreter`;
     for (const layer of layers) {
       const layerId = `${placeName.value}-${layer.id}`;
       const existingLayerSource = map.getSource(layerId);
@@ -103,18 +102,24 @@ async function handleKommuneFormSubmit(e: Event) {
         continue;
       }
 
+      const nameSearchResult = await queryOverpassTurbo(
+        `[out:json]; rel["name"="${placeName.value}"]; out body qt;`
+      );
+      if (nameSearchResult.elements.length === 0) {
+        consoleMessages.value.push(
+          `No results, ensure "rel[name=${placeName.value}]" exist in OSM.`
+        );
+        break;
+      }
+
       console.time(`Fetching ${layerId} data`);
-      const response = await fetch(overpassTurboApiUrl, {
-        method: "POST",
-        body: `[out:json];
+      const data = await queryOverpassTurbo(`[out:json];
   rel["name"="${placeName.value}"];
   map_to_area;
   nwr${layer.query}(area);
   (._;>;);
-  out body qt;`,
-      });
+  out body qt;`);
 
-      const data = await response.json();
       const geojson = osmtogeojson(data);
       console.info(`${layerId} ${geojson.features.length} features.`);
       consoleMessages.value.push(
@@ -123,20 +128,36 @@ async function handleKommuneFormSubmit(e: Event) {
 
       console.timeEnd(`Fetching ${layerId} data`);
 
-      if (geojson.features.length === 0) {
-        consoleMessages.value.push(
-          `${layerId} has no features, does any relation with name ${placeName.value} exist?`
-        );
-        break;
-      }
-
       addLayerToMap(map, layer, layerId, geojson);
 
-      await new Promise((resolve) => setTimeout(resolve, 3000));
+      await new Promise((resolve) => setTimeout(resolve, 2000));
     }
+  } catch (e) {
+    if (e instanceof Object && "message" in e && typeof e.message == "string") {
+      consoleMessages.value.push(e.message);
+    }
+    throw e;
   } finally {
     loadingData.value = false;
   }
+}
+
+const overpassTurboApiUrl = `https://overpass-api.de/api/interpreter`;
+async function queryOverpassTurbo(
+  query: string
+): Promise<{ [key: string]: any; elements: object[] }> {
+  const response = await fetch(overpassTurboApiUrl, {
+    method: "POST",
+    body: query,
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `Overpass Turbo API returned an error, ${response.statusText}`
+    );
+  }
+
+  return await response.json();
 }
 </script>
 
@@ -144,6 +165,11 @@ async function handleKommuneFormSubmit(e: Event) {
 #app {
   width: 100vw;
   height: 100vh;
+}
+#app form {
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .main {
