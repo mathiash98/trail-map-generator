@@ -10,8 +10,8 @@ import EidfjordPiste from "./geojson-data/Eidfjord-piste.geojson";
 import EidfjordFarms from "./geojson-data/Eidfjord-farms.geojson";
 // [place=hamlet]
 import EidfjordHamlets from "./geojson-data/Eidfjord-hamlets.geojson";
-// [natural=water]
-// import EidfjordWater from "./geojson-data/Eidfjord-water.geojson";
+// [natural=water][name]
+import EidfjordWater from "./geojson-data/Eidfjord-water-with-names.geojson";
 // [highway]["highway"!~"footway"]["highway"!~"path"]["highway"!~"piste"]
 // import EidfjordHighway from "./geojson-data/Eidfjord-highway.geojson";
 // [waterway]
@@ -39,6 +39,16 @@ export const PisteLayer: Layer = {
     "line-width": 1.5,
   },
   query: '["piste:type"]',
+};
+export const WaterLayer: Layer = {
+  id: "water-with-name",
+  place: "Eidfjord",
+  source: EidfjordWater,
+  type: "symbol",
+  layout: {
+    "text-size": 16,
+  },
+  query: "[natural=water][name]",
 };
 export const HillsLayer: Layer = {
   id: "hill",
@@ -90,6 +100,7 @@ const layers: Layer[] = [
   PisteLayer,
   HillsLayer,
   FarmsLayer,
+  WaterLayer,
   HamletsLayer,
   PeaksLayer,
 ];
