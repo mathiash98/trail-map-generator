@@ -4,6 +4,8 @@ import EidfjordPeaks from "./geojson-data/Eidfjord-peaks.geojson";
 import EidfjordHills from "./geojson-data/Eidfjord-hills.geojson";
 // [highway=path]
 import EidfjordPaths from "./geojson-data/Eidfjord-paths.geojson";
+// [highway=track]
+import EidfjordTracks from "./geojson-data/Eidfjord-tracks.geojson";
 // [piste:type=*]
 import EidfjordPiste from "./geojson-data/Eidfjord-piste.geojson";
 // [place=farm]
@@ -28,6 +30,17 @@ export const PathsLayer: Layer = {
     "line-width": 1.5,
   },
   query: "[highway=path]",
+};
+export const TracksLayer: Layer = {
+  id: "track",
+  place: "Eidfjord",
+  source: EidfjordTracks,
+  type: "line",
+  paint: {
+    "line-color": "#ff5c5c",
+    "line-width": 1.5,
+  },
+  query: "[highway=track]",
 };
 export const PisteLayer: Layer = {
   id: "piste",
@@ -96,6 +109,7 @@ export const PeaksLayer: Layer = {
 };
 
 const layers: Layer[] = [
+  TracksLayer,
   PathsLayer,
   PisteLayer,
   HillsLayer,

@@ -4,12 +4,12 @@
       style="height: 50px; display: inline-flex"
       @submit="handleKommuneFormSubmit"
     >
-      <label for="kommune">Kommune:</label>
+      <label for="kommune">Location:</label>
       <input
         type="text"
         name="kommune"
         id="kommune"
-        placeholder="Skriv inn kommune/lokasjon etc"
+        placeholder="Name of an existing relation in OpenStreetMap"
         v-model="placeName"
         :disabled="loadingData"
       />
@@ -56,6 +56,7 @@ onMounted(() => {
   map.addControl(new mapboxgl.NavigationControl());
   map.addControl(new mapboxgl.ScaleControl({}));
   map.addControl(new mapboxgl.FullscreenControl());
+  map.addControl(new mapboxgl.AttributionControl({ compact: true }));
 
   map.addControl(
     new MapboxExportControl({
