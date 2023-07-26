@@ -120,9 +120,17 @@ async function handleKommuneFormSubmit(e: Event) {
         `${layerId} ${geojson.features.length} features.`
       );
 
+      console.timeEnd(`Fetching ${layerId} data`);
+
+      if (geojson.features.length === 0) {
+        consoleMessages.value.push(
+          `${layerId} has no features, does any relation with name ${placeName.value} exist?`
+        );
+        break;
+      }
+
       addLayerToMap(map, layer, layerId, geojson);
 
-      console.timeEnd(`Fetching ${layerId} data`);
       await new Promise((resolve) => setTimeout(resolve, 3000));
     }
   } finally {
