@@ -29,7 +29,7 @@ export function addLayerToMap(
           ...layer.layout,
           "text-field": [
             "case",
-            ["has", "ele"],
+            ["all", ["has", "ele"], ["has", "name"]],
             [
               "to-string",
               ["concat", ["get", "name"], "\n", ["get", "ele"], " m"],
@@ -45,12 +45,13 @@ export function addLayerToMap(
             5000,
           ],
           "text-anchor": "bottom",
-          "text-offset": [0, -0.3],
+          "text-offset": layer.layout?.["icon-image"] ? [0, -0.3] : [0, 0],
         },
         paint: {
           "text-color": "#333",
           "text-halo-color": "#f2f2f2",
           "text-halo-width": 3,
+          "icon-opacity": ["case", ["has", "name"], 1, 0],
         },
       });
     } else {
